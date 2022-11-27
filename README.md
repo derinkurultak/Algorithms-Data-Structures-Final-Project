@@ -19,8 +19,9 @@ Our main algorithm is recommending recipes according to the users available ingr
 
 There are two Python files attached. INSTARECIPE_main.py is the main code and INSTARECIPE_GUI.py is the code with the GUI. However, since it is an MVP, there is room for improvement.
 ## How Can Users Get Started with the Project?
+**Resources:**
 To start using this app, make sure you have installed the following:
-- Python programming language
+- Python programming language (Python version 3.9 has been used during the development of this project.)
 - The following library: If you would like to use the code which includes the GUI, make sure you download **PySimpleGUI** library.
 
 Initially, the user should input in the app their favorite types of cuisines (in preference order), and the ingredients he/she has in order to get recipes recommended. 
