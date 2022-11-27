@@ -286,7 +286,7 @@ donerKebab.adjacencylist = [filetMignon, fishandchips]
 #a variable called 'cuisines'
 
 cuisines = ['spanish', 'mexican', 'japanese', 'general/not specified', 'thai', 'italian'] 
-#This is an example as if this was the user's input. In the input they can have all the cuisines 
+#This is an example as if this was the user's input. In the input they can have all the cuisines or just a few, everything will work either way 
 
 firstDegree = [pestoPasta, chickenTacos, patatasBravas, sushi, spicyChilly, boiledEgg] #List with the nodes that are in the first degree connections with the startNode
 
@@ -304,12 +304,15 @@ startNode.adjacencylist = x
 
 #Use the GUI to get the user's input regarding their available ingredients. Save this in variable called 'availableIngredients'.
 
-availableIngredients = ['pesto', 'pasta', 'white fish', 'potatoes', 'pork filet mignon', 'vegetable broth', 'sour cream', 'mushrooms', 'ground beef', 'wrap']
-# Notes for the user: If you want to input your own ingredients, edit the list above.
+availableIngredients = ['eggs', 'pasta', 'corn', 'vinegar', 'olive oil', 'lettuce']
+# Notes for the reader: this is just an example of a list of available ingredients. If you want to input your own ingredients, edit the list above.
+
 startNode.dfs()
 
 #2. Use the GUI to give the users the option to see recipes according to cuisine or difficulty level only, ignoring ingredients.
-
+#This would be ran if they click one of these buttons: 'see recipes of a specific cuisine' (run a), 
+#'see recipes of a specific difficulty level' (run b). This would be implemented in a future version of the app. In the current GUI, we are only 
+#running the main algorithm (startNode.dfs())
 
 #a. When they want to see all the recipes belonging to a specific cuisine:
 wantedCuisine = input("Which cuisine's recipes would you like to see?")
