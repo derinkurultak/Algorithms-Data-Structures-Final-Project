@@ -28,7 +28,7 @@ Our main algorithm is recommending recipes according to the users available ingr
 * The algorithm currently has only 60 recipes and 6 cuisines (10 recipe per each cuisine.)
 * There is no advanced GUI for the user to interact with.
 
-## Getting Started with the Project
+# Getting Started with the Project
 **Resources:**
 To start using this app, make sure you have installed the following:
 - Python programming language (The app was developed using Python 3.9.12 on MacOs Monterey 12.3.1)
@@ -40,7 +40,7 @@ To start using this app, make sure you have installed the following:
 2. The user should input the ingredients he/she has in order to get recipes recommended. 
 3. The user will receive the recommended recipes according to their cuisine preference order and difficulty level (from easiest to hardest).
 
-## Credits
+# Credits
 Our group consists of six determined students of the Dual Degree in Business Administration & Data and Business Analytics. The development team is as follows: 
 * Adrian Con
 * Derin Kurultak
