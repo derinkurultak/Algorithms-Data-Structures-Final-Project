@@ -7,7 +7,7 @@
 4. Credits
 
 # Introduction
-As BBA DBA second year students in IE University, we are carrying out this project to learn by putting into practice the theoretical concepts we’ve learned in the Algorithms and Data Structures course. The objective is to push ourselves and learn further coding techniques/concepts to create an application that helps IE students (and also university students in general) have efficient management of their meal prepping process, making life easier and allowing less waste of food, money, and time. We want to recommend specific recipes to each person, tailored to their preferences to maximise their satisfaction.
+As BBA DBA second year students in IE University, we are carrying out this project to learn by putting into practice the theoretical concepts we’ve learned in the Algorithms and Data Structures course. The objective is to create an application that helps students (and also university students in general) have efficient management of their meal prepping process, making life easier and allowing less waste of food, money, and time. We want to recommend specific recipes to each person, tailored to their preferences to maximise their satisfaction.
 
 # What Does the Project Do?
 For IE students who need an easy means to find recipes that adapt to their lifestyle, preferences/tastes, available ingredients and scarce time to cook, Instarecipe is an app to find recipes in seconds. Unlike Instagram or Pinterest, it's better because it only focuses on recipes and it recommends the most appropriate recipes for each user according to their specifications (what ingredients they have, what cuisines they prefer etc). The user is shown only the recipes for which he/she has over 70% of the ingredients, also considering the importance of each ingredient in the recipe. 
@@ -36,9 +36,15 @@ To start using this app, make sure you have installed the following:
 - The following library: If you would like to use the code which includes the GUI, make sure you download **PySimpleGUI** library. After the download, it should be imported like the following:
 ``` import PySimpleGUI ```
 
-1. Initially, the user should input in the app their favorite types of cuisines (in preference order)
-2. The user should input the ingredients he/she has in order to get recipes recommended. 
-3. The user will receive the recommended recipes according to their cuisine preference order and difficulty level (from easiest to hardest).
+1. The user should open the Python file in a Python environment. 
+2. In the variable "cuisines" on line 288, the user should input their favorite types of cuisines in a list in preference order. (The available cuisines are 'spanish', 'mexican', 'japanese', 'general/not specified', 'thai', 'italian'.)
+3. In the variable "availableIngredients" on line 307, the user should input the ingredients he/she has in a list in order to get recipes recommended. 
+4. The user should make sure that there are no gramatical errors made while typing down the cuisines and ingredients.
+5. The user should input the ingredients and cuisines as singular nouns and in lower case letters.
+6. ``` startNode.dfs() ``` should be run.
+7. The user will receive the recommended recipes according to their cuisine preference order and difficulty level (from easiest to hardest).
+8. If the user wishes to view only recipes to one specific cuisine, the user should run the lines 315-318 (including 315-318).
+9. If the user wishes to view only recipes to one specific difficulty level (level 1, level 2, level 3), the user should run the lines 321-324 (including 321-324).
 
 # Credits
 Our group consists of six determined students of the Dual Degree in Business Administration & Data and Business Analytics. The development team is as follows: 
