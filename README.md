@@ -48,4 +48,5 @@ Our group consists of six determined students of the Dual Degree in Business Adm
 * Laura Bradford
 * Romane Prisant
 * Valeria Ulloa
+
 In addition to our team, we have a skilled and experienced mentor, Antonio Lopez, who is also our professor for the course and has been a key resource along the process of the development of the app.
